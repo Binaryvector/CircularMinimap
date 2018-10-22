@@ -1,7 +1,7 @@
 ## Title: Circular Votan's Mini Map
 ## Author: Shinni
-## APIVersion: 100023
-## Version: 1.4
+## APIVersion: 100025
+## Version: 1.6
 ## DependsOn: VotansMiniMap
 
 ## This Add-On is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its
