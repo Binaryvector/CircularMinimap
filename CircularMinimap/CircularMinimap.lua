@@ -15,6 +15,8 @@ The circle can then be approximated like this, by adding a horizontal and a vert
 local ADDON_NAME = "CircularMinimap"
 CircularMinimap = {}
 
+LibDAU:VerifyAddon(ADDON_NAME)
+
 --GetTextureFileDimensions
 CircularMinimap.textures = {
 	["(Circular) Moosetrax Normal Wheel"] = "CircularMinimap/Textures/MNormalWheel.dds",
@@ -83,7 +85,6 @@ end
 
 -- circular border texture
 CircularMinimap.background = WINDOW_MANAGER:CreateControl("CircularBackground", ZO_WorldMap, CT_TEXTURE)
-CircularMinimap.background:SetTexture("CircularMinimap/MAstroWheel.dds")
 CircularMinimap.background:SetDrawLayer(1)
 CircularMinimap.background:SetDrawLevel(1)
 CircularMinimap.background:SetAnchor(CENTER, ZO_WorldMapScroll, CENTER, 0, 0)

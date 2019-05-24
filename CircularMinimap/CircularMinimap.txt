@@ -1,7 +1,7 @@
 ## Title: Circular Votan's Mini Map
 ## Author: Shinni
-## APIVersion: 100026
-## Version: 1.7
+## APIVersion: 100027
+## Version: 1.8
 ## DependsOn: VotansMiniMap
 
 ## This Add-On is not created by, affiliated with or sponsored by ZeniMax Media Inc. or its
@@ -10,5 +10,7 @@
 
 ## Textures provided by
 ## Moosetrax (http://www.esoui.com/forums/member.php?u=591)
+
+Libs/LibDAU/LibDAU.lua
 
 CircularMinimap.lua
